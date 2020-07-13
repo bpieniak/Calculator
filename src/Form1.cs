@@ -59,26 +59,6 @@ namespace Calculator
             FocusInputText();
         }
 
-        private void oneOverXButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void secondPowerButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void squareRootButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void percentButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Cbutton_Click(object sender, EventArgs e)
         {
 
@@ -180,11 +160,7 @@ namespace Calculator
 
         private void CalculateEquation()
         {
-            
-
-
-
-            resultLabel.Text = ParseOperation();
+            resultLabel.Text = "= " + ParseOperation();
             FocusInputText();
         }
 
